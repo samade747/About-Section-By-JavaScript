@@ -11,3 +11,20 @@ body{
     height: 100vh;
 }
 
+.container{
+    display: flex;
+}
+
+
+
+.row{
+    display: flex;
+    
+}
+
+.col{
+    
+    align-items: center;
+    justify-content: center;
+    
+}

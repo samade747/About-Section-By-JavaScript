@@ -25,3 +25,32 @@ let boxtext = document.getElementById('boxtext');
 
 imageArea.src = reviews[currIndex].image;
 boxtext.textContent = reviews[currIndex].detail;
+
+
+function History(){
+    currIndex = 0;
+    let imageArea = document.getElementById('ImageArea');
+    let boxtext = document.getElementById('boxtext');
+
+    imageArea.src = reviews[currIndex].image;
+    boxtext.textContent = reviews[currIndex].detail;
+}
+
+
+function Vision(){
+    currIndex = 1;
+    let imageArea = document.getElementById('ImageArea');
+    let boxtext = document.getElementById('boxtext');
+
+    imageArea.src = reviews[currIndex].image;
+    boxtext.textContent = reviews[currIndex].detail;
+}
+
+function Goals(){
+    currIndex = 2;
+    let imageArea = document.getElementById('ImageArea');
+    let boxtext = document.getElementById('boxtext');
+
+    imageArea.src = reviews[currIndex].image;
+    boxtext.textContent = reviews[currIndex].detail;
+}

@@ -2,7 +2,7 @@ const reviews = [
 { id: '01',
   section: 'history',
   detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
-  src: "./images/history image.jpeg"},
+  image:  src= "./images/history.jpeg"},
 
 { id: '02',
   section: 'Vision',

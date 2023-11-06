@@ -2,7 +2,7 @@ const reviews = [
 { id: '01',
   section: 'history',
   detail: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis dolorum voluptates eum. Illo odio nisi esse laudantium excepturi nesciunt dolorum numquam placeat repudiandae rem non, beatae harum sint, impedit dolor.atur',
-  image: src="./images/00001.PNG"},
+  src: "./images/history image.jpeg"},
 
 { id: '02',
   section: 'Vision',
@@ -18,7 +18,7 @@ const reviews = [
 
 ]
 
-let currIndex = 2;
+let currIndex = 0;
 
 let imageArea = document.getElementById('ImageArea');
 let boxtext = document.getElementById('boxtext');
